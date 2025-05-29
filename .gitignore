@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+model_convert/pretrained_models
+model_convert/campplus/data
+openfst*
+*.onnx
