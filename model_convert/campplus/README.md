@@ -11,3 +11,9 @@
 ```
 onnxslim ../pretrained_models/CosyVoice-300M/campplus.onnx campplus_sim.onnx --input-shapes input:1,256,80 
 ```
+
+## 生成量化数据集
+
+```
+python generate_calib.py
+```
